@@ -16,11 +16,12 @@ body {
     background-size: cover;
     padding-bottom: 3rem;
     color: #5a5a5a;
-    }
-    main{
-        padding-top: 150px;
-       
-    }
+}
+
+main {
+    padding-top: 150px;
+
+}
 
 .wrapper {
     max-width: 350px;
@@ -111,6 +112,7 @@ body {
         padding: 40px 15px 15px 15px;
     }
 }
+
 .container-fluid {
     background: lightcoral;
     background-image: url("https://static.vecteezy.com/system/resources/previews/004/256/684/non_2x/abstract-minimalist-background-modern-background-design-wave-liquid-shapes-composition-creative-templates-fit-for-presentation-design-website-basis-for-banners-wallpapers-brochure-free-vector.jpg");
@@ -165,4 +167,50 @@ svg {
     20% {
         stroke-dashoffset: -30%;
     }
+}
+
+.opciones {
+    margin-left: 2em;
+    display: block;
+    text-align: center;
+    box-shadow: none;
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    float: left;
+
+}
+
+.portal {
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    display: block;
+    text-align: center;
+    height: 25vh;
+    background-color: white;
+    width: 100%;
+}
+.portal-actual {
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    display: block;
+    text-align: center;
+    height: 25vh;
+    background-color: palegoldenrod;
+    width: 100%;
+}
+.paciente{
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 2em;
+    justify-content: center;
+}
+.portal:hover{
+    background-color: palegoldenrod;
+    transition: background-color 2s;
 }
